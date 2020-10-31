@@ -8,7 +8,7 @@
 
 <h3 align="center"> Criada com a stack <img src="imgs/react.png" alt="react" height="18"> React, <img src="imgs/node.png" alt="node" height="18"> Node </h3>
 
-<p align="center"> <img src="imgs/blog.png" alt="heroes" height="250"> </p>
+<p align="center"> <img src="imgs/blog.png" alt="blog" height="250"> </p>
 
 <p align="center"> Usando o poder de uma stack poderosa, que utiliza de uma única linguagem popular e moderna, o <img src="imgs/js.png" height="18" alt="javascript"> JavaScript. <br> Produtividade e performance de forma enxuta. </p>
 
