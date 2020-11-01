@@ -8,8 +8,6 @@
 
 <h3 align="center"> Criada com a stack <img src="imgs/react.png" alt="react" height="18"> React, <img src="imgs/node.png" alt="node" height="18"> Node </h3>
 
-<p align="center"> <img src="imgs/blog.png" alt="blog" height="250"> </p>
-
 <p align="center"> Usando o poder de uma stack poderosa, que utiliza de uma única linguagem popular e moderna, o <img src="imgs/js.png" height="18" alt="javascript"> JavaScript. <br> Produtividade e performance de forma enxuta. </p>
 
 ---
@@ -34,12 +32,6 @@ Rode ```npm start``` nas pastas backend e frontend para utilizar a versão web. 
     <img alt="" title="" src="imgs/print2.png">
     <img alt="" title="" src="imgs/print3.png">
 </p>
-
 ---
 
-## Licença
-[MIT]()
-
----
-
-<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/Rodrigo-SEgui" target="_blank">rodrigo_segui</a> </h4>
+<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/Rodrigo-Segui" target="_blank">rodrigo_segui</a> </h4>
