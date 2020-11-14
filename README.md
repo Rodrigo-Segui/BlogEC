@@ -6,7 +6,7 @@
 
 <h2 align="center"> Blog - Desenvolvido durante o processo de treinee na Pampec Jr </h2>
 
-<h3 align="center"> Criada com html, css,sass e , <img src="imgs/node.png" alt="node" height="18"> Node </h3>
+<h3 align="center"> Criada com html, css, sass e nodejs </h3>
 
 <p align="center"> Usando o poder de uma stack poderosa, que utiliza de uma única linguagem popular e moderna, o <img src="imgs/js.png" height="18" alt="javascript"> JavaScript. <br> Produtividade e performance de forma enxuta. </p>
 
