@@ -1,0 +1,23 @@
+{
+  "name": "BlogEC",
+  "version": "1.0.0",
+  "description": "<!-- então bora codar! -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Segui/BlogEC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Segui/BlogEC/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Segui/BlogEC#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
