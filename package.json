@@ -1,23 +1,51 @@
 {
-  "name": "BlogEC",
+  "name": "repo",
   "version": "1.0.0",
-  "description": "<!-- então bora codar! -->",
-  "main": "index.js",
+  "description": "",
+  "main": "src/index.js",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^12.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.12",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^5.5.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "commit": "git-cz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rodrigo-Segui/BlogEC.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rodrigo-Segui/BlogEC/issues"
-  },
-  "homepage": "https://github.com/Rodrigo-Segui/BlogEC#readme",
-  "dependencies": {
-    "bootstrap": "^4.5.3"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

@@ -1,0 +1,18 @@
+CONTAINER_NODE="nodejs"
+CONTAINER_DB="exemple-db"
+
+HOST=127.0.0.1
+PORT=3333
+
+DB_DIALECT="postgres"
+DB_HOST="localhost"
+DB_USERNAME="postgres"
+DB_PASSWORD="postgres"
+DB_DATABASE="exclusivus-db"
+DB_PORT="5432"
+DB_LOGGING = true
+
+
+SECRET_SESSION="exempleapp"
+
+SECRET_PASSWORD="exemplesecretpassword"

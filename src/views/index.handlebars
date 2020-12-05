@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm">
+      <div id="logo">
+        <img src="imgs/logo.png" class="img-cadastro" alt="logo">
+      </div>
+    </div>
+  </div>
+
+  {{#each postagens}}
+  <div class="row">
+    <div class="card bg-light mb-3" style="max-width: 1119px; top: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">{{titulo}}</h5>
+        <p class="card-text">{{conteudo}}</p>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
